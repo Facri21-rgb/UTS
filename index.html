@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="id">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sistem Pengelolaan Toko</title>
+
+        <style>
+            /* Reset Margin dan Padding */
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+
+            body {
+                font-family: 'Arial', sans-serif;
+                background-color: lightcyan;
+                color: #333;
+                padding: 30px;
+                line-height: 1.6;
+            }
+
+            h1 {
+                font-size: 32px;
+                color: #333;
+                text-align: center;
+                margin-bottom: 30px;
+                font-weight: 600;
+            }
+
+            p {
+                font-size: 18px;
+                text-align: center;
+                margin-bottom: 20px;
+            }
+
+            /* Container utama untuk menu */
+            .menu-container {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+
+            /* Style untuk tiap link */
+            a {
+                display: block;
+                width: 250px;
+                background-color: gray;
+                color: white;
+                padding: 15px;
+                text-align: center;
+                text-decoration: none;
+                margin: 10px 0;
+                border-radius: 5px;
+                transition: background-color 0.3s ease, transform 0.2s ease;
+                font-size: 18px;
+                font-weight: 500;
+            }
+
+            /* Hover efek pada link */
+            a:hover {
+                background-color: #005f9e;
+                transform: scale(1.05);
+            }
+
+            /* Fokus efek saat link diklik */
+            a:focus {
+                outline: none;
+                box-shadow: 0 0 5px rgba(0, 123, 255, 0.6);
+            }
+
+            /* Membuat tampilan link lebih responsif di layar kecil */
+            @media (max-width: 600px) {
+                a {
+                    width: 200px;
+                    font-size: 16px;
+                }
+            }
+        </style>
+    </head>
+
+    <body>
+        <h1>Pengelolaan Toko Harian</h1>
+        <p>Menu Utama:</p>
+
+        <div class="menu-container">
+            <a href="tambahpelanggan.html">Tambah Pelanggan</a>
+            <a href="tambahproduk.html">Tambah Produk</a>
+            <a href="tambahtransaksi.html">Transaksi</a>
+            <a href="laporanpelanggan..html">Laporan Pelanggan</a>
+            <a href="laporanproduk.html">Laporan Produk</a>
+            <a href="laporantransaksi.html">Laporan Transaksi</a>
+        </div>
+    </body>
+</html>

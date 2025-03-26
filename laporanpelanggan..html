@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Laporan Pelanggan</title>
+
+    <style>
+        /* Reset untuk margin dan padding */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: lightcyan;
+            color: #333;
+            padding: 20px;
+            line-height: 1.6;
+        }
+
+        h1 {
+            font-size: 32px;
+            color: #333;
+            text-align: center;
+            margin-bottom: 30px;
+            font-weight: 600;
+        }
+
+        p {
+            font-size: 18px;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        /* Style untuk tabel */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background-color: white;
+            margin-top: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #008bff;
+            color: white;
+            font-weight: bold;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        tr:hover {
+            background-color: #f1f1f1;
+        }
+
+        /* Tautan kembali ke menu utama */
+        a {
+            display: inline-block;
+            background-color: #008bff;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            margin-top: 20px;
+            border-radius: 5px;
+            text-align: center;
+            transition: background-color 0.3s;
+        }
+
+        a:hover {
+            background-color: #005f9e;
+        }
+
+        /* Responsif untuk layar kecil */
+        @media (max-width: 600px) {
+            table {
+                font-size: 14px;
+            }
+
+            th, td {
+                padding: 10px;
+            }
+
+            a {
+                font-size: 16px;
+            }
+        }
+    </style>
+</head>
+
+    <body>
+        <h1>Laporan Pelanggan</h1>
+        <table>
+            <thead>
+                <tr>
+                    <td>Nama Pelanggan</td>
+                    <td>Alamat</td>
+                    <td>No Telpon</td>
+                </tr>
+            </thead>
+
+        <tbody>
+            <tr>
+                <td>Facri Raihan</td>
+                <td>Jl. Sukamaju KM 4</td>
+                <td>082286257093</td>
+            </tr>
+
+            <tr>
+                <td>Aslan</td>
+                <td>Jl.Kemangi NO.4</td>
+                <td>087469726382</td>
+            </tr>
+
+            <tr>
+                <td>Ian</td>
+                <td>Jl. Pavon KM 9 NO.41</td>
+                <td>089272635433</td>
+            </tr>
+        </tbody>
+        </table>
+
+        <p><a href = "index.html">Kembali Ke Menu Utama </a></p>
+    </body>
+</html>
